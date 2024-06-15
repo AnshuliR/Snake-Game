@@ -1,0 +1,18 @@
+package snakeGame;
+
+import javax.swing.*;
+
+public class SnakeGame extends JFrame {
+	
+	SnakeGame(){
+		setLocation(700,300);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		
+		//Object of the class
+		new SnakeGame();
+		
+	}
+}
